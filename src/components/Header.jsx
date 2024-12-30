@@ -3,11 +3,7 @@ import React, { useState } from 'react';
 
 
 function Header() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    function handleMenuOpen() {
-        setIsMenuOpen(!isMenuOpen);
-    }
+    
     
     return(
         
