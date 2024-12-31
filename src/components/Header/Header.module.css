@@ -1,0 +1,80 @@
+
+.navBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 61px;
+    z-index: 2;
+    margin: 0 10%;
+    background-color: black;
+  }
+  
+  .title {
+    font-size:  30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menuBtn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+  }
+  
+  .navLinks a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .navBar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      position: absolute;
+      right: 0;
+      margin-right: 10%;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 11px;
+      z-index: 3;
+    }
+  
+    .menuBtn {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 13px;
+      border-radius: 10px;
+      background: rgb(30, 29, 29);
+      background: linear-gradient(
+        0deg, 
+        rgba(30, 29, 29, 0.2) 0%, 
+        rgba(30, 29, 29, 1) 100%);
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .isMenuOpen {
+        display: flex;
+        z-index: 1;
+    }
+  }
