@@ -5,10 +5,12 @@ import Projects from "./pages/Projects.jsx";
 import Blog from "./pages/Blog.jsx";
 
 function App() {
-  return(<>
-          <Header/>
-          <Footer/>
-        </>)
+  return(
+    <>
+      <Header/>
+      <Footer/>
+    </>
+  );
 }
 
 export default App
