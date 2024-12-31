@@ -1,42 +1,35 @@
 import React, { useState } from 'react';
 
 
-
 function Header() {
     
     
     return(
-        
-        <nav className="navigation-bar">
-            <a className="web-icon" href="/"></a>
+        <header className='header'>
+            <img className="page-icon" src="src/pictures/myLogo.png" alt='menu-button'></img>
 
-                <div className="nav-menu">
-                    <ul className="menu-items">
-                    
-                        <li>
-                            <a href="#about"></a>About
-                        </li>
+            <nav>
+                <ul className='nav-links'>
+                    <li>
+                        About
+                    </li>
 
-                        <li>
-                            <a href="#about"></a>Work Experiences
-                        </li>
+                    <li>
+                        Projects
+                    </li>
 
-                        <li>
-                            <a href="/"></a>Projects
-                        </li>
+                    <li>
+                        Experiences
+                    </li>
 
-                        <li>
-                            <a href="/"></a>Blog
-                        </li>
+                    <li>
+                        Contact
+                    </li>
 
-                        <li>
-                            <a href="/"></a>Contact
-                        </li>
-                    </ul>
-                </div>
-               
-           </nav> 
+                </ul>
+            </nav>
+        </header>
     );
 }
 
-export default Header
+export default Header;
