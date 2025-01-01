@@ -5,8 +5,9 @@ function Home() {
 
     return(
         <>
-            <div className="introduction">
-                <h2>Hello! I am Leonard</h2>
+        <section>
+        <div className="introduction">
+                <h1>Hello! I am Leonard</h1>
 
                 <p>
                     An aspiring full-stack software engineer. <br/>
@@ -33,6 +34,8 @@ function Home() {
             <div className="">
                 
             </div>
+        </section>
+           
         </>
     );
 }
