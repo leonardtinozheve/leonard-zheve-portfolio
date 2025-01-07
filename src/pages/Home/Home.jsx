@@ -11,12 +11,6 @@ function Home() {
                 <h1 className={styles.title}>Hello! I am Leonard</h1>
 
                 <p className={styles.description}>
-                    An aspiring full-stack software engineer. 
-                    <br/>
-
-                    A solution-oriented thinker and community advocate. 
-                    <br/>
-
                     I am an international student at Wesleyan University from Harare, Zimbabwe. I intend on 
                     majoring in Computer Science and Sociology. I am interested in solving technical problems 
                     and continuously learning new skills that will help me deliver valuable tech innovations. 
