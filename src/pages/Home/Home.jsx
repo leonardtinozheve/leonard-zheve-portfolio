@@ -1,26 +1,22 @@
 import React from "react";
+import styles from "./Home.module.css"
 
 function Home() {
     
 
     return(
         <>
-        <section>
-        <div className="introduction">
-                <h1>Hello! I am Leonard</h1>
+        <section className={styles.container}>
+        <div className={styles.content}>
+                <h1 className={styles.title}>Hello! I am Leonard</h1>
 
-                <p>
-                    An aspiring full-stack software engineer. <br/>
+                <p className={styles.description}>
+                    An aspiring full-stack software engineer. 
+                    <br/>
 
-                    A solution-oriented thinker and community advocate. <br/>
+                    A solution-oriented thinker and community advocate. 
+                    <br/>
 
-                </p>
-
-                <img className="headshot" src="src/pictures/Leonard_Zheve_Headshot.jpg" alt="headshot"/>
-            </div>
-
-            <div className="about-me-home">
-                <p>
                     I am an international student at Wesleyan University from Harare, Zimbabwe. I intend on 
                     majoring in Computer Science and Sociology. I am interested in solving technical problems 
                     and continuously learning new skills that will help me deliver valuable tech innovations. 
@@ -28,12 +24,15 @@ function Home() {
                     to electronic financial services in my home country and across Africa.
                 </p>
 
-                <button  className="about-me">Learn more about me</button>
+                <button className={styles.aboutMe}>Learn more about me</button>
             </div>
 
-            <div className="">
-                
-            </div>
+            <img className={styles.headshot} src="src/pictures/Leonard_Zheve_Headshot.jpg" alt="headshot"/>
+
+            <div className={styles.topBlur}/>
+
+            <div className={styles.bottomBlur}/>
+
         </section>
            
         </>
