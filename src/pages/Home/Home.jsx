@@ -7,7 +7,7 @@ function Home() {
     return(
         <>
         <section className={styles.container}>
-        <div className={styles.content}>
+            <div className={styles.content}>
                 <h1 className={styles.title}>Hello! I am Leonard</h1>
 
                 <p className={styles.description}>
