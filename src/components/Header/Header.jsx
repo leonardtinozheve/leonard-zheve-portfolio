@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import styles from "./Header.module.css";
-import { use } from 'react';
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,15 +24,15 @@ function Header() {
             <ul className={`${styles.navLinks} ${isMenuOpen && styles.isMenuOpen}`} 
                 onClick={() => setIsMenuOpen(false)}>
                 <li>
-                    <a>About</a>
+                    <a href='#about'>About</a>
                 </li>
 
                 <li>
-                    <a>Projects</a>
+                    <a href='#experiences'>Experiences</a>
                 </li>
 
                 <li>
-                    <a>Experiences</a>
+                    <a href='#projects'>Projects</a>
                 </li>
 
                 <li>

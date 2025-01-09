@@ -1,3 +1,4 @@
+@import "../../vars.css";
 
 .navBar {
     position: relative;
@@ -7,14 +8,13 @@
     padding: 61px;
     z-index: 2;
     margin: 0 10%;
-    background-color: black;
   }
   
   .title {
     font-size:  30px;
     font-weight: 600;
     text-decoration: none;
-    color: white;
+    color: var(--color-text);
   }
   
   .menuBtn {
@@ -33,7 +33,7 @@
   
   .navLinks a {
     font-size: 25px;
-    color: white;
+    color: var(--color-text);
     text-decoration: none;
   }
   
@@ -64,11 +64,11 @@
       align-items: center;
       gap: 13px;
       border-radius: 10px;
-      background: rgb(30, 29, 29);
+      background: rgb(25, 25, 109);
       background: linear-gradient(
         0deg, 
-        rgba(30, 29, 29, 0.2) 0%, 
-        rgba(30, 29, 29, 1) 100%);
+        rgba(25, 25, 109, 0.2) 0%, 
+        rgba(25, 25, 109, 1) 100%);
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }

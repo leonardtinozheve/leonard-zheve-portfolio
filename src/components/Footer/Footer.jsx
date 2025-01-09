@@ -23,7 +23,7 @@ function Footer() {
                         Projects
                     </li>
                     
-                    <li>
+                    <li a href="#contacts">
                         Contact
                     </li>
 
@@ -32,11 +32,11 @@ function Footer() {
 
             <div className="socials">
                 <ul>
-                    <li a href="">
+                    <li a href="mailto:leonardt.zheve@gmail.com">
                         leonardt.zheve@gmail.com
                     </li>
 
-                    <li a href="">
+                    <li a href="https://www.linkedin.com/in/leonard-zheve/">
                         My LinkedIn
                     </li>
 
