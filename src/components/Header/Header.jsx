@@ -28,7 +28,7 @@ function Header() {
                 </li>
 
                 <li>
-                    <a href='#experiences'>Experiences</a>
+                    <a href='#experience'>Experiences</a>
                 </li>
 
                 <li>

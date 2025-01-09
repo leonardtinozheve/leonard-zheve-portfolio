@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+
+    {
+        "title": "C",
+        "imageSrc": "skills/c-programming.png"
+    },
+
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+
+    {
+        "title": "SML",
+        "imageSrc": "skills/sml-programming.png"
+    },
+
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    },
+
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+    },
+
+    {
+        "title": "React.js",
+        "imageSrc": "skills/react-js.png"
+    },
+
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+
+    {
+        "title": "GitHub",
+        "imageSrc": "skills/github.png"
+    },
+
+    {
+        "title": "SDLC",
+        "imageSrc": "assets/skills/sdlc.png"
+    },
+
+    {
+        "title": "Agile Mathodologies",
+        "imageSrc": "skills/sprint-iteration.png"
+    },
+
+    {
+        "title": "Visual Code",
+        "imageSrc": "skills/vs-code.png"
+    }
+]
