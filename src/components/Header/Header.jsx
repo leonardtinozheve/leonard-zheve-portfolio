@@ -17,7 +17,7 @@ function Header() {
     
         <div className={styles.menu}>
             <img className={styles.menuBtn} 
-                src={isMenuOpen ? "src/pictures/menuClose.png" : "src/pictures/menuIcon.png"} 
+                src={isMenuOpen ? "/assets/pictures/menuClose.png" : "/assets/pictures/menuIcon.png"} 
                 alt="menu-icon"
                 onClick={handleMenuOpen}/>
 
