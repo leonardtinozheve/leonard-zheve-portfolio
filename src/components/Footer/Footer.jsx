@@ -16,19 +16,19 @@ function Footer() {
 
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src="/contacts/gmail.png" 
+                    <img src="/assets/contacts/gmail.png" 
                     alt="Gmail icon"/>
                     <a href="mailto:leonardt.zheve@gmail.com">leonardt.zheve@gmail.com</a>
                 </li>
 
                 <li className={styles.link}>
-                    <img src="/contacts/linkedin.png" 
+                    <img src="/assets/contacts/linkedin.png" 
                     alt="LinkedIn icon"/>
                     <a href="https://www.linkedin.com/in/leonard-zheve/">My LinkedIn</a>
                 </li>
 
                 <li className={styles.link}>
-                    <img src="/contacts/github.png" 
+                    <img src="/assets/contacts/github.png" 
                     alt="GitHub icon"/>
                     <a href="https://github.com/leonardtinozheve">My GitHub profile</a>
                 </li>
