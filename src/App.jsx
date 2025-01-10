@@ -4,7 +4,6 @@ import Footer from "./components/Footer/Footer.jsx";
 import About from "./pages/About/About.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Projects from "./pages/Projects/Projects.jsx";
-import Blog from "./pages/Blog/Blog.jsx";
 import Experiences from "./pages/Experiences/Experience.jsx";
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
         <Home/>
         <About/>
         <Experiences/>
+        <Projects />
         <Footer/>
       </div>
 
