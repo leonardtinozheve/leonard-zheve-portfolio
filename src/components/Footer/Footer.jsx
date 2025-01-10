@@ -1,52 +1,40 @@
+import React from "react";
+import styles from "./Footer.module.css";
+
 
 function Footer() {
     
 
     return(
-        <footer>
-            <div className="nav-links">
-                <ul>
-                    
-                    <li>
-                        Home
-                    </li>
-
-                    <li>
-                        About
-                    </li>
-
-                    <li>
-                        Experiences
-                    </li>
-
-                    <li>
-                        Projects
-                    </li>
-                    
-                    <li a href="#contacts">
-                        Contact
-                    </li>
-
-                </ul>
+        <footer id="contact" className={styles.container}>
+            
+            <div className={styles.text}>
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out</p>
             </div>
+            
 
-            <div className="socials">
-                <ul>
-                    <li a href="mailto:leonardt.zheve@gmail.com">
-                        leonardt.zheve@gmail.com
-                    </li>
+            <ul className={styles.links}>
+                <li className={styles.link}>
+                    <img src="/contacts/gmail.png" 
+                    alt="Gmail icon"/>
+                    <a href="mailto:leonardt.zheve@gmail.com">leonardt.zheve@gmail.com</a>
+                </li>
 
-                    <li a href="https://www.linkedin.com/in/leonard-zheve/">
-                        My LinkedIn
-                    </li>
+                <li className={styles.link}>
+                    <img src="/contacts/linkedin.png" 
+                    alt="LinkedIn icon"/>
+                    <a href="https://www.linkedin.com/in/leonard-zheve/">My LinkedIn</a>
+                </li>
 
-                    <li a href=""> 
-                        My GitHub
-                    </li>
-                </ul>
-            </div>
-
-            <img className="page-icon" src="src/pictures/myLogo.png" alt="page-icon"/>
+                <li className={styles.link}>
+                    <img src="/contacts/github.png" 
+                    alt="GitHub icon"/>
+                    <a href="https://github.com/leonardtinozheve">My GitHub profile</a>
+                </li>
+            </ul>
+            
+            
         </footer>
     );
 }
