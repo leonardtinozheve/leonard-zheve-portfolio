@@ -18,7 +18,9 @@ function Home() {
                     to electronic financial services in my home country and across Africa.
                 </p>
 
-                <button className={styles.aboutMe}>Learn more about me</button>
+                <a href="#contact" className={styles.aboutMe}>
+                    Contact me
+                </a>
             </div>
 
             <img className={styles.headshot} src="src/pictures/Leonard_Zheve_Headshot.jpg" alt="headshot"/>
