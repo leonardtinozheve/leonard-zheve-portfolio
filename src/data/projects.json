@@ -1,10 +1,10 @@
 [
 {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Capital Express Banking App",
+    "imageSrc": "/project-images/default.webp",
+    "description": "This is a Python-based robust digital banking application that allows users to seamlessly create and manage checking accounts, leveraging unique usernames and passwords for enhanced security authentication.",
+    "skills": ["Python", "Tkinter libraries", "Pytest"],
+    "demo": "https://youtu.be/NGnmw42lQCo",
+    "source": "https://github.com/leonardtinozheve/capitex_banking_app"
   }
 ]

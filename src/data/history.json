@@ -1,10 +1,39 @@
 [
     {
-        "role": "Software Engineer",
-        "organisation": "Google",
-        "startDate": "Sept, 2022",
+        "role": "Student Ambassador",
+        "organisation": "diiVe",
+        "startDate": "August, 2024",
         "endDate": "Present",
-        "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-        "imageSrc": "/skills/react.svg"
+        "experiences": [
+            "Managed digital outreach campaign to 200+ students to connect with internship opportunities through social media, newsletters, and email, resulting in increased interest among students",  
+            "Collaborate with the campus career center to develop targeted promotional material for students with a turnup of 50+ students per promotion event", 
+            "Presented my internship experience to alumni to boost donations for grants supporting first-gen, low-income students access to the internship program"
+        ],
+        "imageSrc": "/history/diive.png"
+    }, 
+    {
+        "role": "Instructional Media Specialist",
+        "organisation": "Wesleyan University",
+        "startDate": "February, 2024",
+        "endDate": "Present",
+        "experiences": [
+            "Troubleshoot and resolve technical issues with multimedia devices, achieving a 95% resolution rate",
+            "Configure and manage conference technology for 15+ on-campus events, including video conferencing and sound systems ensuring reliable communication during the event",
+            "Perform weekly classroom checks on multimedia equipment to ensure maximum functionality"
+        ],
+        "imageSrc": "/history/wesleyan.png"
+    },
+    {
+        "role": "Consulting Intern",
+        "organisation": "diiVe",
+        "startDate": "May, 2024",
+        "endDate": "July, 2024",
+        "experiences": [
+            "Completed a two-week intensive consulting training program on South African consulting, Theory U, and agile methodologies",
+            "Spearheaded market research for a South African-based biotech company into the US$44 million Rwandan biotech market",
+            "Mobilized 50+ biotech startups and VC funds for expansion across 9 African countries in 3 years",
+            "Conducted 10+ stakeholder interviews to evaluate 3 business models focused on a shared value initiative for the biotech industry and academia"
+        ],
+        "imageSrc": "/history/diive.png"
     }
 ]
