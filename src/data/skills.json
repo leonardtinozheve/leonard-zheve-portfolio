@@ -1,61 +1,61 @@
 [
     {
         "title": "Python",
-        "imageSrc": "/skills/python.png"
+        "imageSrc": "/assets/skills/python.png"
     },
 
     {
         "title": "C",
-        "imageSrc": "/skills/c-programming.png"
+        "imageSrc": "/assets/skills/c-programming.png"
     },
 
     {
         "title": "JavaScript",
-        "imageSrc": "/skills/javascript.png"
+        "imageSrc": "/assets/skills/javascript.png"
     },
 
     {
         "title": "SML",
-        "imageSrc": "/skills/sml-programming.png"
+        "imageSrc": "/assets/skills/sml-programming.png"
     },
 
     {
         "title": "HTML",
-        "imageSrc": "/skills/html.png"
+        "imageSrc": "/assets/skills/html.png"
     },
 
     {
         "title": "CSS",
-        "imageSrc": "/skills/css.png"
+        "imageSrc": "/assets/skills/css.png"
     },
 
     {
         "title": "React.js",
-        "imageSrc": "/skills/react-js.png"
+        "imageSrc": "/assets/skills/react-js.png"
     },
 
     {
         "title": "Git",
-        "imageSrc": "/skills/git.png"
+        "imageSrc": "/assets/skills/git.png"
     },
 
     {
         "title": "GitHub",
-        "imageSrc": "/skills/github.png"
+        "imageSrc": "/assets/skills/github.png"
     },
 
     {
         "title": "SDLC",
-        "imageSrc": "/skills/sdlc.png"
+        "imageSrc": "/assets/skills/sdlc.png"
     },
 
     {
         "title": "Agile Mathodologies",
-        "imageSrc": "/skills/sprint-iteration.png"
+        "imageSrc": "/assets/skills/sprint-iteration.png"
     },
 
     {
         "title": "Visual Code",
-        "imageSrc": "/skills/vs-code.png"
+        "imageSrc": "/assets/skills/vs-code.png"
     }
 ]
