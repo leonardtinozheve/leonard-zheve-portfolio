@@ -23,7 +23,7 @@ function Home() {
                 </a>
             </div>
 
-            <img className={styles.headshot} src="src/pictures/Leonard_Zheve_Headshot.jpg" alt="headshot"/>
+            <img className={styles.headshot} src="/assets/pictures/Leonard_Zheve_Headshot.jpg" alt="headshot"/>
 
             <div className={styles.topBlur}/>
 
