@@ -17,7 +17,7 @@ function Experience() {
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
                   <img 
-                  src={`/skills/${skill.imageSrc}`} 
+                  src={skill.imageSrc} 
                   alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
@@ -31,7 +31,7 @@ function Experience() {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc)}
+                  src={historyItem.imageSrc}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 
