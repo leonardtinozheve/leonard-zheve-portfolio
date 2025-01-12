@@ -8,13 +8,13 @@ function About() {
         <h2 className={styles.title}>About</h2>
         
         <div className={styles.content}>
-            <img src="/assets/pictures/otherpic.jpg" 
+            <img src="/pictures/otherpic.jpg" 
             alt="A selfie of me"
             className={styles.aboutImage}/>
 
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img src="/assets/pictures/full-stack.png"
+                    <img src="/pictures/full-stack.png"
                     className={styles.fullStack} 
                     alt="Full stack"/>
                     <div className={styles.aboutItemText}>
@@ -27,7 +27,7 @@ function About() {
                 </li>
 
                 <li className={styles.aboutItem}>
-                    <img src="/assets/pictures/exchange.png"
+                    <img src="/pictures/exchange.png"
                     className={styles.exchangePic}
                     alt="Community and tech"/>
                     <div className={styles.aboutItemText}>
