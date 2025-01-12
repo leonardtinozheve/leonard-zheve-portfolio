@@ -9,7 +9,7 @@
             "Collaborate with the campus career center to develop targeted promotional material for students with a turnup of 50+ students per promotion event", 
             "Presented my internship experience to alumni to boost donations for grants supporting first-gen, low-income students access to the internship program"
         ],
-        "imageSrc": "/assets/history/diive.png"
+        "imageSrc": "/history/diive.png"
     }, 
     {
         "role": "Instructional Media Specialist",
@@ -21,7 +21,7 @@
             "Configure and manage conference technology for 15+ on-campus events, including video conferencing and sound systems ensuring reliable communication during the event",
             "Perform weekly classroom checks on multimedia equipment to ensure maximum functionality"
         ],
-        "imageSrc": "/assets/history/wesleyan.png"
+        "imageSrc": "/history/wesleyan.png"
     },
     {
         "role": "Consulting Intern",
@@ -34,6 +34,6 @@
             "Mobilized 50+ biotech startups and VC funds for expansion across 9 African countries in 3 years",
             "Conducted 10+ stakeholder interviews to evaluate 3 business models focused on a shared value initiative for the biotech industry and academia"
         ],
-        "imageSrc": "assets/history/diive.png"
+        "imageSrc": "/history/diive.png"
     }
 ]
